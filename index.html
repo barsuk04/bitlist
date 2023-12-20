@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="keywords" content="BITLIST, crypto exchange, decentralized platform, trading, P2P, mining, academy" />
+        <meta
+            name="description"
+            content="Buy, trade, and store cryptocurrencies on BITLIST. Explore P2P, mining, and educational resources. Sign up now and start to trade!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style/style.css" />
+        <link rel="stylesheet" href="./style/normalize.css" />
+        <link rel="stylesheet" href="./style/null.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+        <link rel="manifest" href="./assets/site.webmanifest">
+        <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@500&display=swap" rel="stylesheet" />
+        <script defer src="./scripts/burger.js"></script>
+        <script src="./scripts/api.js"></script>
+        <title>BITLIST - Decentralized Crypto Platform</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__container">
+                    <div class="header__block">
+                        <img src="./assets/logo.svg" alt="logo" />
+                        <div class="header__vertical-line"></div>
+                        <div class="header__input-block">
+                            <input class="header__input" placeholder="Search" type="text" />
+                            <img src="./assets/search-icon.svg" class="header__search-icon" alt="search-icon" />
+                        </div>
+                    </div>
+                    <div class="header__block">
+                        <ul class="header__menu">
+                            <li class="header__item"><a href="/">Trade</a></li>
+                            <li class="header__item"><a href="/">P2P</a></li>
+                            <li class="header__item"><a href="/">Partners</a></li>
+                            <li class="header__item"><a href="/">Mining</a></li>
+                            <li class="header__item"><a href="/">Academy</a></li>
+                        </ul>
+                        <div class="header__vertical-line"></div>
+                        <div class="header__buttons-block">
+                            <a href="/" class="header__register">Register</a>
+                            <a href="/" class="header__login">Log in</a>
+                        </div>
+                    </div>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <div class="burger">
+                        <div class="header-burger__input-block">
+                            <input class="header__input" placeholder="Search" type="text" />
+                            <img src="./assets/search-icon.svg" class="header__search-icon" alt="search-icon" />
+                        </div>
+                        <ul class="header-burger__menu">
+                            <li class="header__item"><a href="/">Trade</a></li>
+                            <li class="header__item"><a href="/">P2P</a></li>
+                            <li class="header__item"><a href="/">Partners</a></li>
+                            <li class="header__item"><a href="/">Mining</a></li>
+                            <li class="header__item"><a href="/">Academy</a></li>
+                        </ul>
+                        <div class="header-burger__buttons-block">
+                            <a href="/" class="header__register">Register</a>
+                            <a href="/" class="header__login">Log in</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <div class="first-section">
+                    <div class="first-section__title-button">
+                        <img src="./assets/first-section-button.svg" alt="title-text" />
+                    </div>
+                    <div class="first-section__title-text-block">
+                        <div class="first-section__title-text">
+                            Buy, trade and store<br />
+                            cryptocurrencies
+                        </div>
+                    </div>
+                    <div class="first-section__input-block first-section__input-block-currencies">
+                        <img src="./assets/mail-icon.svg" class="first-section__title-input-icon" alt="mail-icon" />
+                        <input class="first-section__title-input" type="text" placeholder="Example@gmail.com" />
+                        <button class="first-section__title-input-button">Sign in</button>
+                    </div>
+                    <img src="./assets/graph.png" class="first-section__graph" alt="first-section-background" />
+                </div>
+                <div class="section-hr"></div>
+                <div class="second-section__container">
+                    <div class="second-section__block">
+                        <div class="second-section__title-block">
+                            <div class="second-section__title-asset">Asset</div>
+                            <div class="second-section__title-inf-block">
+                                <div class="second-section__title-inf-text">Price</div>
+                                <div class="second-section__title-inf-text">Change</div>
+                                <div class="second-section__title-inf-text">Volume</div>
+                            </div>
+                        </div>
+                        <div id="second-section__value">
+
+                        </div>
+                    </div>
+                    <button class="second-section__button">All assets</button>
+                </div>
+                <div class="section-hr"></div>
+                <div class="third-section__container">
+                    <div class="third-section__text-block">
+                        <div class="third-section__text-title">Bitles is your reliable guide in the world of digital assets</div>
+                        <div class="third-section__text">
+                            The Bitles app is a comprehensive solution for trading digital assets. Buy and sell cryptocurrencies quickly and
+                            openly, comfortably and safely from anywhere in the world.
+                        </div>
+                    </div>
+                    <div class="third-section__exchanges">
+                        <img src="./assets/binance-name.svg" alt="" />
+                        <div class="third-section__exchanges-bitfinex-block">
+                            <img src="./assets/bybit-name.svg" alt="" />
+                            <img
+                                src="./assets/bitles-bg.png"
+                                class="third-section__exchanges-bg third-section__exchanges-bg-bybit"
+                                alt="" />
+                        </div>
+                        <div class="third-section__exchanges-bitfinex-block">
+                            <img src="./assets/bitfinex-name.svg" alt="" />
+                            <img
+                                src="./assets/bitles-bg.png"
+                                class="third-section__exchanges-bg third-section__exchanges-bg-bitfinex"
+                                alt="" />
+                        </div>
+                        <img src="./assets/crypto-name.svg" alt="" />
+                        <img src="./assets/kraken-name.svg" alt="" />
+                        <img src="./assets/coinbase-name.svg" alt="" />
+                    </div>
+                </div>
+                <div class="section-hr-gradient"></div>
+                <div class="fourth-section__container">
+                    <div class="fourth-section__block">
+                        <div class="fourth-section__icon-block">
+                            <img class="fourth-section__icon" src="./assets/credit-card-lock.svg" alt="creadit-card" />
+                        </div>
+                        <div class="fourth-section__title">User Safe Asset Fund (SAFU)world.</div>
+                        <div class="fourth-section__text">
+                            Bitlist holds 10% of all trading fees in a protected asset fund to protect a portion of user funds.
+                        </div>
+                    </div>
+                    <div class="fourth-section__block">
+                        <div class="fourth-section__icon-block">
+                            <img class="fourth-section__icon" src="./assets/eye.svg" alt="eye" />
+                        </div>
+                        <div class="fourth-section__title">User Access Control</div>
+                        <div class="fourth-section__text">
+                            Personalized access control allows you to limit the devices and addresses that can access your account.
+                        </div>
+                    </div>
+                    <div class="fourth-section__block">
+                        <div class="fourth-section__icon-block">
+                            <img class="fourth-section__icon" src="./assets/lock-01.svg" alt="lock" />
+                        </div>
+                        <div class="fourth-section__title">Improved data encryption</div>
+                        <div class="fourth-section__text">Your transaction data is encrypted - only you can access your personal data.</div>
+                    </div>
+                    <div class="fourth-section__block">
+                        <div class="fourth-section__icon-block">
+                            <img class="fourth-section__icon" src="./assets/message-dots-circle.svg" alt="message-dots-circle" />
+                        </div>
+                        <div class="fourth-section__title">Support 24/7</div>
+                        <div class="fourth-section__text">24/7 real-time support is always ready to help you.</div>
+                    </div>
+                    <div class="fourth-section__block">
+                        <div class="fourth-section__icon-block">
+                            <img class="fourth-section__icon" src="./assets/rocket-02.svg" alt="rocket" />
+                        </div>
+                        <div class="fourth-section__title">Fast replineshments and withdraws</div>
+                        <div class="fourth-section__text">Transfer funds to and from your accounts quickly and easily.</div>
+                    </div>
+                    <div class="fourth-section__block">
+                        <div class="fourth-section__icon-block">
+                            <img class="fourth-section__icon" src="./assets/coins-swap-01.svg" alt="coins-swap" />
+                        </div>
+                        <div class="fourth-section__title">Comfortable P2P platform</div>
+                        <div class="fourth-section__text">
+                            Top up your account in any convenient way on the P2P platform at favorable rates.
+                        </div>
+                    </div>
+                </div>
+                <div class="section-hr-gradient"></div>
+                <div class="fifth-section__container">
+                    <div class="fifth-section__title-block">
+                        <img src="./assets/register-account-bg.svg" class="fifth-section__background" alt="" />
+                        <div class="fifth-section__title">Register your account now and start to trade</div>
+                    </div>
+                    <div class="first-section__input-block first-section__input-block-currencies">
+                        <img src="./assets/mail-icon.svg" class="first-section__title-input-icon" alt="mail-icon" />
+                        <input class="first-section__title-input" type="text" placeholder="Example@gmail.com" />
+                        <button class="first-section__title-input-button">Sign in</button>
+                    </div>
+                </div>
+            </main>
+            <div class="section-hr"></div>
+            <footer class="footer__container">
+                <div class="footer__block">
+                    <div class="footer__logo-block">
+                        <img src="./assets/footer-logo.svg" class="footer__logo" alt="" />
+                        <div class="footer__social-network-icon">
+                            <a href="/"><img src="./assets/telegram-icon.svg" alt="telegram"></a>
+                            <a href="/"><img src="./assets/facebook-icon.svg" alt="facebook">
+                            <a href="/"><img src="./assets/twitter.svg" alt="twitter"></a>
+                        </div>
+                        <div class="footer__buttons-block">
+                            <button class="footer__register-button">Register</button>
+                            <button class="footer__login-button">Log in</button>
+                        </div>
+                    </div>
+                    <div class="footer__menu-block">
+                        <ul class="footer__menu">
+                            <li class="footer__menu-item"><a href="/">Trade</a></li>
+                            <li class="footer__menu-item"><a href="/">P2P</a></li>
+                            <li class="footer__menu-item"><a href="/">Partners</a></li>
+                            <li class="footer__menu-item"><a href="/">Mining</a></li>
+                            <li class="footer__menu-item"><a href="/">Academy</a></li>
+                        </ul>
+                        <ul class="footer__menu">
+                            <li class="footer__menu-item"><a href="/">Privacy policy</a></li>
+                            <li class="footer__menu-item"><a href="/">Terms of rules</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__text">Bitlist© All Rights Reserved</div>
+            </footer>
+        </div>
+    </body>
+</html>
